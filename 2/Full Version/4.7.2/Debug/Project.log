@@ -1,0 +1,22 @@
+﻿Build started 11/17/2014 2:09:28 AM.
+Project "C:\Documents and Settings\QamarudDin\Desktop\4.7.2\Project.vcxproj" on node 2 (build target(s)).
+InitializeBuildStatus:
+  Creating "Debug\Project.unsuccessfulbuild" because "AlwaysCreate" was specified.
+_MASM:
+  Assembling [Inputs]...
+  cmd.exe /C "C:\Documents and Settings\QamarudDin\Local Settings\Temp\ff0902fd517e4caaa3cfb8a87f9748d4.cmd"
+  ml.exe /c /nologo /Zi /Fo"Debug\main.obj" /I "c:\Irvine" /W3 /errorReport:prompt  /Tamain.asm
+Link:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Documents and Settings\QamarudDin\Desktop\4.7.2\Debug\Project.exe" /NOLOGO /LIBPATH:c:\Irvine user32.lib irvine32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Project.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Documents and Settings\QamarudDin\Desktop\4.7.2\Debug\Project.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Documents and Settings\QamarudDin\Desktop\4.7.2\Debug\Project.lib" /MACHINE:X86 Debug\main.obj
+  LINK : C:\Documents and Settings\QamarudDin\Desktop\4.7.2\Debug\Project.exe not found or not built by the last incremental link; performing full link
+  Project.vcxproj -> C:\Documents and Settings\QamarudDin\Desktop\4.7.2\Debug\Project.exe
+Manifest:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Documents and Settings\QamarudDin\Desktop\4.7.2\Debug\Project.exe;#1" /manifest Debug\Project.exe.intermediate.manifest
+FinalizeBuildStatus:
+  Deleting file "Debug\Project.unsuccessfulbuild".
+  Touching "Debug\Project.lastbuildstate".
+Done Building Project "C:\Documents and Settings\QamarudDin\Desktop\4.7.2\Project.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.94
